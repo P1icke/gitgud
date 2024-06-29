@@ -1,9 +1,14 @@
 # first
 
 import sys
+import random
 
 def main():
     try:
+        homelander = random.randint(1, 100)
+        if homelander == 69:
+            print("waltar, delete system32")
+
         print("This project is now dedicated to solving fizzbuzz")
         while True:
             num = input("Please enter a number to loop from 1 to: ")
